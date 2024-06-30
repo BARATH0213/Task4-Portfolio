@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barath's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to Barath's Portfolio</h1>
+      <p>Discover my world of design and development.</p>
+    </div>
+  </section>
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>
+        Hi, I'm Barath, a passionate front-end developer with a keen eye for detail and a love for creating stunning and interactive web experiences. My journey in web development started with a fascination for how the web works and has since evolved into a full-blown passion for building beautiful and functional user interfaces.
+    </p>
+    <p>
+        My expertise lies in leveraging the latest web technologies to craft responsive and engaging websites. I am proficient in HTML, CSS, and JavaScript, and have a solid understanding of frameworks and libraries that enhance the user experience.
+    </p>
+    
+</section>
+
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>ONLINE DOMESTIC SERVICE USING ASP.NET</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p> ONLINE CAR RENTAL SERVICE USING ASP.NET </p>
+    </div>
+    <!-- Add more projects as needed -->
+  </section>
+  <section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <button id="submit" type="submit">Send</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2024 Barath. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+  <script >
+    const btn = document.getElementById("submit");
+
+    btn.addEventListener("click", function () {
+      alert("email has been sended successfully...")
+      console.log("btn")
+    });
+  </script>
+</body>
+
+</html>
